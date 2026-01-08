@@ -1,5 +1,7 @@
 package healthcare.service;
 
+// Singleton class used to manage referrals
+
 import healthcare.model.AppModel;
 import healthcare.util.IdGenerator;
 

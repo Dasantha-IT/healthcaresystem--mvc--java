@@ -1,5 +1,7 @@
 package healthcare.controller;
 
+// This Class Acts as the main controller of the application
+
 import healthcare.model.AppModel;
 import healthcare.service.PrescriptionService;
 import healthcare.service.ReferralManager;
@@ -14,6 +16,8 @@ public class AppController {
     private final AppModel model = new AppModel(baseDir);
 
     private final PrescriptionService prescriptionService = new PrescriptionService();
+
+    // Singleton instance for referral management
     private final ReferralManager referralManager = ReferralManager.getInstance();
 
     public AppModel getModel() { return model; }
@@ -51,6 +55,7 @@ public class AppController {
         }
     }
 
+    // Creates a new prescription and generates output file
     public Map<String, String> createPrescription(Map<String, String> data) throws IOException {
         return prescriptionService.createPrescription(model, data, baseDir);
     }

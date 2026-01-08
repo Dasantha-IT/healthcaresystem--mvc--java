@@ -1,5 +1,7 @@
 package healthcare.util;
 
+// This class used to generate new IDs for records
+
 import java.util.List;
 import java.util.Map;
 import java.util.regex.*;

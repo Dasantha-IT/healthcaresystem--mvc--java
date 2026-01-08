@@ -7,8 +7,14 @@ import java.io.IOException;
 import java.util.*;
 
 public class CsvRepository {
+
+    // Reference to the CSV file
     private final File file;
+
+    // Column headers of the CSV
     private final List<String> headers;
+
+    // In-memory storage of CSV rows
     private final List<Map<String, String>> rows = new ArrayList<>();
 
     public CsvRepository(File file, List<String> headers) {
@@ -19,6 +25,7 @@ public class CsvRepository {
     public List<String> getHeaders() { return Collections.unmodifiableList(headers); }
     public List<Map<String, String>> getRows() { return rows; }
 
+    // Loads data from the CSV file into memory
     public void load() throws IOException {
         rows.clear();
         if (!file.exists()) {

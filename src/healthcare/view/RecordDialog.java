@@ -1,5 +1,7 @@
 package healthcare.view;
 
+// This window used to add or edit records
+
 import javax.swing.*;
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;

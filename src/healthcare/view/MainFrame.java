@@ -15,6 +15,8 @@ import javax.swing.JTabbedPane;
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 
+// Main application window
+
 import java.io.IOException;
 import java.time.LocalDate;
 
@@ -23,10 +25,16 @@ import java.util.List;
 import java.util.Map;
 
 public class MainFrame extends JFrame {
+
+    // Reference to controller for handling user actions
     private final AppController controller;
+
+    // Reference to the application model
     private final AppModel model;
+
     private final Map<String, TablePanel> panels = new LinkedHashMap<>();
 
+    // Constructor sets up the main window
     public MainFrame(AppController controller) {
         super("Healthcare Management System (MVC + Swing + Singleton)");
         this.controller = controller;

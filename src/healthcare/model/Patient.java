@@ -1,5 +1,7 @@
 package healthcare.model;
 
+// This class stores basic patient information
+
 public class Patient extends User {
     private String gender;
     private String dateOfBirth;
