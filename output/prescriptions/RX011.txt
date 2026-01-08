@@ -1,16 +1,16 @@
 === PRESCRIPTION ===
 Prescription ID: RX011
-Issue Date: 2026-01-07
+Issue Date: 2026-01-08
 
-Patient ID: P009
-Clinician ID: C012
-Appointment ID: A040
+Patient ID: P006
+Clinician ID: C004
+Appointment ID: A011
 
 Condition: 
 Medication: 
-Dosage: 5mg
-Instructions: Take After the Meal
+Dosage: 25mg
+Instructions: times a day
 
-Pharmacy: clowne
+Pharmacy: Boots
 Status: Issued
-Collection Date: 2026.01.07
+Collection Date: 2026.01.08

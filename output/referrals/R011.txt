@@ -1,0 +1,23 @@
+=== REFERRAL DOCUMENT ===
+Referral ID: R011
+Created Date: 2026-01-08
+Last Updated: 2026-01-08
+
+Patient ID: P006
+Referring Clinician: C002
+Referred To Facility: H002
+Referred To Clinician: C001
+
+Referral Type: 
+Urgency: Urgent
+Status: In Progress
+Appointment ID: A010
+
+Clinical Summary:
+23 Years old
+
+Reason For Referral:
+
+
+Notes:
+
